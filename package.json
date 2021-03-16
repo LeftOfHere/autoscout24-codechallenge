@@ -1,0 +1,11 @@
+{
+  "name": "listing_report_api",
+  "version": "1.0.0",
+  "description": "Coding Challenge: AutoScout24 Listing Report",
+  "main": "index.js",
+  "author": "Zander van Tonder",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
