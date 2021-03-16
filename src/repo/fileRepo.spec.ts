@@ -1,6 +1,6 @@
 import * as chai from 'chai';
 import 'mocha';
-import { readDataStream } from './fileRepo';
+import { readDataStream } from './fileReader';
 
 const expect = chai.expect;
 
