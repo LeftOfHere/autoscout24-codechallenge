@@ -6,10 +6,10 @@ import * as controller from './controller';
 
 const reportsRouter = Router();
 
-reportsRouter.get('/reports/averageSellingPriceBySellerType',
+reportsRouter.get('/reports',
   isAuthenticated,
   isAuthorized({hasRole: Role.ADMIN}),
-  controller.averageSellingPriceBySellerType
+  controller.report
 )
 
 export default reportsRouter;
